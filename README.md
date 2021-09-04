@@ -211,10 +211,15 @@ You can test this API on Postman :
 ```
 
 
+## Referencs
 
-  
-  
-  
-    
-    
-    
+* [Express](http://expressjs.com/en/api.html)
+
+* [async await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
+* [Mongoose](https://mongoosejs.com/docs/guide.html)
+
+* [Cloudinary](https://cloudinary.com/documentation/node_integration)
+
+* [multer](https://www.npmjs.com/package/multer)
+
