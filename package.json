@@ -1,0 +1,31 @@
+{
+  "name": "03-blog-rendering",
+  "version": "1.0.0",
+  "description": "blog rendering using mongoose , express",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "cloudinary": "^1.26.3",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "Mongoose",
+    "express",
+    "multer",
+    "cloudinary",
+    "blog"
+  ],
+  "author": "Kulsum",
+  "license": "ISC"
+}
