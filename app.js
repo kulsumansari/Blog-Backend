@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors())
 
-let text= `<embed type="text/markdown" src="https://kulsumansari.github.io/Todo-API-Mongoose-ModeSwitch/" height="100%" width="100%"/>`;
+let text= `<embed type="text/markdown" src="https://kulsumansari.github.io/Blog-Backend/" height="100%" width="100%"/>`;
 fs.writeFileSync("./public/index.html", text);
 
 app.use(express.static('public'))
