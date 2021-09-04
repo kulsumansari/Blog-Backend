@@ -66,7 +66,7 @@ To Setup this project locally follow below mentioned steps:
     PORT = <YOUR_PORT>
     CLOUD_NAME= <CLOUDINARY_CLOUD_NAME>
     API_KEY = <CLOUDINARY_API_KEY>
-    API_SECRET = <CLOUDINARY_API_sAECRETKEY>
+    API_SECRET = <CLOUDINARY_API_SECRETKEY>
   ```
    
   4. Run the Project
