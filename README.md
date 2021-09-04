@@ -129,7 +129,7 @@ To Setup this project locally follow below mentioned steps:
 
   **With Only Required Keys (using JSON Data)**
     
-    ![Add blogs](https://kulsumansari.github.io/webpage-data/blogAPI-images/addBlogJsonDsta.png)
+   ![Add blog](https://kulsumansari.github.io/webpage-data/blogAPI-images/addBlogJsonDsta.png)
 
 
 
