@@ -1,7 +1,9 @@
 # Blog-Backend
 
 Blog Backend API is developed using node.js and express. This API allows to fetch blogs , add, update, and delete blogs which are stored in Mongodb database server.
-    
+
+[**Live Link**](https://backend-server-blog.herokuapp.com/)
+
 **Features**
 
   * Get All Blogs
