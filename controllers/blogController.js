@@ -53,7 +53,7 @@ const addBlog =async (req, res, next)=>{
         if(typeof relatedLinks === 'string'){
             relatedLinks = JSON.parse(relatedLinks)
         }
-        if(req.file){
+        if(req.blogImage){
             blogImage = req.result.url 
         }
         
@@ -79,6 +79,7 @@ const addBlog =async (req, res, next)=>{
     }
 
     catch(err){
+        console.log(err)
         if(err.name === 'ValidationError'){   
             return next(new GlobalErrorhandling({
                 message: 'Bad Request',

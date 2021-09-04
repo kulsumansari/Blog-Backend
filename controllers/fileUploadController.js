@@ -28,11 +28,13 @@ const upload = multer({
 
 const uploadFile = async(req, res, next) => {
     try {
-      if(req.file){
+      if(req.blogImage){
         req.result = await cloudinary.uploader.upload(req.blogImage.path)
+        next()
       } 
       next()
     }catch(err) {
+      console.log(err)
       let errObj=new GlobalErrorhandling({
         message: 'Bad Request',
         error: err,
