@@ -1,7 +1,9 @@
 # Blog-Backend
 
 Blog Backend API is developed using node.js and express. This API allows to fetch blogs , add, update, and delete blogs which are stored in Mongodb database server.
-    
+
+[**Live Link**](https://backend-server-blog.herokuapp.com/)
+
 **Features**
 
   * Get All Blogs
@@ -66,7 +68,7 @@ To Setup this project locally follow below mentioned steps:
     PORT = <YOUR_PORT>
     CLOUD_NAME= <CLOUDINARY_CLOUD_NAME>
     API_KEY = <CLOUDINARY_API_KEY>
-    API_SECRET = <CLOUDINARY_API_sAECRETKEY>
+    API_SECRET = <CLOUDINARY_API_SECRETKEY>
   ```
    
   4. Run the Project
@@ -129,7 +131,7 @@ To Setup this project locally follow below mentioned steps:
 
   **With Only Required Keys (using JSON Data)**
     
-    ![Add blogs](https://kulsumansari.github.io/webpage-data/blogAPI-images/addBlogJsonDsta.png)
+   ![Add blog](https://kulsumansari.github.io/webpage-data/blogAPI-images/addBlogJsonDsta.png)
 
 
 
