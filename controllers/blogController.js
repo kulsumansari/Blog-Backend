@@ -53,7 +53,7 @@ const addBlog =async (req, res, next)=>{
         if(typeof relatedLinks === 'string'){
             relatedLinks = JSON.parse(relatedLinks)
         }
-        if(req.blogImage){
+        if(req.file){
             blogImage = req.result.url 
         }
         
